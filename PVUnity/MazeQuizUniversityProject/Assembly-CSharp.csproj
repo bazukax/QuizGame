@@ -55,7 +55,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ExitController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Quiz.cs" />
+     <Compile Include="Assets\Scripts\UIcontroller.cs" />
  <Reference Include="UnityEngine">
  <HintPath>E:/UnityHUb/Unity2019/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
