@@ -17,4 +17,17 @@ public class MovementTest
         //ASSERT
         Assert.IsTrue(obj.GetComponent<PlayerController>().runSpeed >= 0);
     }
+
+    [Test]
+    public void TestMovementLimiter()
+    {
+        //ARRANGE
+        GameObject obj = new GameObject();
+        obj.AddComponent<PlayerController>();
+        //ACT
+
+
+        //ASSERT
+        Assert.IsTrue(obj.GetComponent<PlayerController>().moveLimiter >= 0);
+    }
 }
