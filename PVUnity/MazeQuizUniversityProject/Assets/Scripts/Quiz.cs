@@ -11,6 +11,7 @@ public class Quiz : MonoBehaviour
     public string[] correctAnswer;
     public string[] wrongAnswer;
     public int randomQuestionId;
+    public GameObject panel;
 
     public Text question;
     public Button[] answerButton;
@@ -30,6 +31,7 @@ public class Quiz : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
+            panel.SetActive(true);
             provoked = true;
             randomQuestionId = generateRandomId(qList.Length);
             UpdateUserInterface();
@@ -43,7 +45,7 @@ public class Quiz : MonoBehaviour
         UpdateUserInterface();
         player.GetComponent<PlayerController>().enabled = false;
     }
-    int generateRandomId(int max)
+    public int generateRandomId(int max)
     {
        int rng = Random.Range(0, max);
         return rng;
