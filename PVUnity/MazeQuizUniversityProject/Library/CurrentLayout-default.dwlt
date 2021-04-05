@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 579, y: 492}
-  m_MaxSize: {x: 12004, y: 14042}
+  m_MinSize: {x: 401, y: 321}
+  m_MaxSize: {x: 12001, y: 8042}
   vertical: 1
-  controlID: 197
+  controlID: 411
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 460
-  m_MinSize: {x: 579, y: 221}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 401, y: 200}
+  m_MaxSize: {x: 12001, y: 4021}
   vertical: 0
-  controlID: 198
+  controlID: 412
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,8 +161,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 460
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 994
     height: 460
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 13}
@@ -196,7 +196,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 15}
   m_Selected: 1
-  m_LastSelected: 2
+  m_LastSelected: 3
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -216,16 +216,17 @@ MonoBehaviour:
     y: 0
     width: 340
     height: 460
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
+  - {fileID: 20}
   m_Selected: 2
-  m_LastSelected: 0
+  m_LastSelected: 3
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,7 +237,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -245,14 +246,14 @@ MonoBehaviour:
     y: 460
     width: 1536
     height: 271
-  m_MinSize: {x: 230, y: 271}
-  m_MaxSize: {x: 10000, y: 10021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -374,9 +375,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 88350000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffff
+      m_ExpandedIDs: e2ebffff26ecffff6aecffffb6ecffff02edffff4eedffff9aedffffe6edffff32eeffff7eeeffffcaeeffff16efffff62efffffaeeffffffaefffff46f0ffff92f0ffffdef0ffff2af1ffff76f1ffffc2f1ffff0ef2ffffb2f2fffffef2ffff4af3ffff96f3fffff8f4ffff44f5ffff90f5ffffdcf5ffff20f6ffff76f6ffff22f9ffff44f9ffff5efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -512,7 +513,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.4567011, y: -0.26323003, z: 0.14352982, w: 0.83758116}
     speed: 2
-    m_Value: {x: -0.4567011, y: 0.26323003, z: -0.14352982, w: -0.83758116}
+    m_Value: {x: 0.45669907, y: -0.26322886, z: 0.14352919, w: 0.83757746}
   m_Size:
     m_Target: 1.7113273
     speed: 2
@@ -652,12 +653,220 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1004
+    x: 1196
     y: 73.6
-    width: 531
+    width: 339
     height: 439
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1196
+    y: 73.6
+    width: 339
+    height: 439
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 492
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes: 150100005c000000
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes: 2000000020000000
+    maxSizes: 0000000000000000
+    lastTotalSize: 369
+    splitSize: 6
+    xOffset: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 0}
+    newResultList: []
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories: []
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 18}
+    newResultList:
+    - id: 1000
+      uniqueId: '[MazeQuizUniversityProject][suite]'
+      name: MazeQuizUniversityProject
+      fullName: MazeQuizUniversityProject
+      resultStatus: 1
+      duration: 0.0543398
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1003
+      uniqueId: '[Assembly-CSharp-Editor][C:/Users/bazukax/Desktop/Another one/PVUnity/MazeQuizUniversityProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+      name: Assembly-CSharp-Editor.dll
+      fullName: C:/Users/bazukax/Desktop/Another one/PVUnity/MazeQuizUniversityProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      resultStatus: 1
+      duration: 0.0184571
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[MazeQuizUniversityProject][suite]'
+    - id: 1001
+      uniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][PlayerControllerTests][suite]
+      name: PlayerControllerTests
+      fullName: PlayerControllerTests
+      resultStatus: 1
+      duration: 0.0423378
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[Assembly-CSharp-Editor][C:/Users/bazukax/Desktop/Another
+        one/PVUnity/MazeQuizUniversityProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: 1002
+      uniqueId: Assembly-CSharp-Editor.dll/PlayerControllerTests/[Assembly-CSharp-Editor][PlayerControllerTests.TestLeftMovement]
+      name: TestLeftMovement
+      fullName: PlayerControllerTests.TestLeftMovement
+      resultStatus: 1
+      duration: 0.0080891
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][PlayerControllerTests][suite]
+    - id: 1003
+      uniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][QuizTests][suite]
+      name: QuizTests
+      fullName: QuizTests
+      resultStatus: 1
+      duration: 0.0151808
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: '[Assembly-CSharp-Editor][C:/Users/bazukax/Desktop/Another
+        one/PVUnity/MazeQuizUniversityProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: 1004
+      uniqueId: Assembly-CSharp-Editor.dll/QuizTests/[Assembly-CSharp-Editor][QuizTests.TestRNG]
+      name: TestRNG
+      fullName: QuizTests.TestRNG
+      resultStatus: 1
+      duration: 0.0006312
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][QuizTests][suite]
+    m_ResultText: TestRNG (0.001s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: b932d4d2
+      m_LastClickedID: -757845319
+      m_ExpandedIDs: a3faa6bfbc27fbd2f3772bd9a199ec1daba5de2ec732ad67ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -693,9 +902,9 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 13704
   m_LastVerticalScrollValue: 0
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -730,7 +939,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -752,11 +961,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 593.60004
+    y: 533.60004
     width: 1536
-    height: 190
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &21
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -795,20 +1004,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\bazukax\Desktop\Another one\PVUnity\MazeQuizUniversityProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 80340000
-    m_LastClickedID: 13440
-    m_ExpandedIDs: 000000007634000000ca9a3b
+    m_SelectedIDs: 92340000
+    m_LastClickedID: 13458
+    m_ExpandedIDs: 000000007a34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -836,7 +1045,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007634000000ca9a3b
+    m_ExpandedIDs: 000000007a34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -861,9 +1070,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 88350000
+    m_LastClickedInstanceID: 13704
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: b81e000060220000a623000012230000f2220000702200006422000022220000b42200006222000004220000d2220000842300006a220000942200006c220000d0210000da210000d2210000dc210000e8210000522400005c2400001e240000222400002024000076260000fc2800005e700000ac2600009826000050270000c22c00004c270000a0270000522700008c2a0000922a0000ae280000ac2a0000800800005834000022260000602600000c26000032da0400903300003253000092330000c23300001630000050300000523000009e30000096530000da350000ae3d00007a3a000032510000ba3a00008c3e0000183b00006a3b0000943d000000000000c0430000f04e00001056000014310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -880,7 +1089,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0

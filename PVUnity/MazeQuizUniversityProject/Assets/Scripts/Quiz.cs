@@ -43,7 +43,7 @@ public class Quiz : MonoBehaviour
         UpdateUserInterface();
         player.GetComponent<PlayerController>().enabled = false;
     }
-    int generateRandomId(int max)
+    public int generateRandomId(int max)
     {
        int rng = Random.Range(0, max);
         return rng;
