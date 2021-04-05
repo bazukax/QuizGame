@@ -18,4 +18,8 @@ public class Main_menu : MonoBehaviour
     public void startGame(){
         Application.LoadLevel(0);
     }
+    public void quit()
+    {
+        Application.Quit();
+    }
 }
