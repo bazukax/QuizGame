@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 579, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 1
-  controlID: 1891
+  controlID: 1132
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 596
-  m_MinSize: {x: 579, y: 221}
+  m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 1892
+  controlID: 1133
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -216,17 +216,17 @@ MonoBehaviour:
     y: 0
     width: 425
     height: 596
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 3
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 3
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,9 +375,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: de370000
       m_LastClickedID: 0
-      m_ExpandedIDs: a8f8ffff7efaffff6afbffff723300008a3300006c340000a4340000
+      m_ExpandedIDs: 6ef4ffff82f6ffff02faffff6afbffffde340000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.4567011, y: -0.26323003, z: 0.14352982, w: 0.83758116}
     speed: 2
-    m_Value: {x: -0.4567011, y: 0.26323003, z: -0.14352982, w: -0.83758116}
+    m_Value: {x: 0.45669907, y: -0.26322886, z: 0.14352919, w: 0.83757746}
   m_Size:
     m_Target: 1.7113273
     speed: 2
@@ -684,7 +684,7 @@ MonoBehaviour:
     height: 575
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 140
+    ID: 1355
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes: 7b0100007e000000
@@ -739,7 +739,7 @@ MonoBehaviour:
       name: MazeQuizUniversityProject
       fullName: MazeQuizUniversityProject
       resultStatus: 1
-      duration: 0.0543398
+      duration: 0.0841001
       messages: 
       output: 
       stacktrace: 
@@ -754,8 +754,8 @@ MonoBehaviour:
       uniqueId: '[Assembly-CSharp-Editor][C:/Users/Adomas/Desktop/procesu labor 3/QuizGame/PVUnity/MazeQuizUniversityProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Adomas/Desktop/procesu labor 3/QuizGame/PVUnity/MazeQuizUniversityProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0469258
       messages: 
       output: 
       stacktrace: 
@@ -766,6 +766,40 @@ MonoBehaviour:
       categories: []
       parentId: 1000
       parentUniqueId: '[MazeQuizUniversityProject][suite]'
+    - id: 1001
+      uniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][MovementTest][suite]
+      name: MovementTest
+      fullName: MovementTest
+      resultStatus: 1
+      duration: 0.0434276
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: '[Assembly-CSharp-Editor][C:/Users/Adomas/Desktop/procesu labor
+        3/QuizGame/PVUnity/MazeQuizUniversityProject/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: 1002
+      uniqueId: Assembly-CSharp-Editor.dll/MovementTest/[Assembly-CSharp-Editor][MovementTest.TestMovement]
+      name: TestMovement
+      fullName: MovementTest.TestMovement
+      resultStatus: 1
+      duration: 0.0175065
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][MovementTest][suite]
     - id: 1001
       uniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][PlayerControllerTests][suite]
       name: PlayerControllerTests
@@ -834,13 +868,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1003
       parentUniqueId: Assembly-CSharp-Editor.dll/[Assembly-CSharp-Editor][QuizTests][suite]
-    m_ResultText: TestRNG (0,001s)
+    m_ResultText: TestMovement (0,018s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b932d4d2
-      m_LastClickedID: -757845319
-      m_ExpandedIDs: a3faa6bfbc27fbd2f3772bd9a199ec1daba5de2ec732ad67ffffff7f
+      m_SelectedIDs: c997e947
+      m_LastClickedID: 1206491081
+      m_ExpandedIDs: a3faa6bfbc27fbd2f3772bd988eb30eb97e47d01a199ec1daba5de2ec732ad67ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1004,20 +1038,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Adomas\Desktop\procesu labor 3\QuizGame\PVUnity\MazeQuizUniversityProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d2330000
-    m_LastClickedID: 13266
-    m_ExpandedIDs: 00000000d233000000ca9a3b
+    m_SelectedIDs: e8330000
+    m_LastClickedID: 13288
+    m_ExpandedIDs: 00000000e433000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1045,7 +1079,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d233000000ca9a3b
+    m_ExpandedIDs: 00000000e433000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1072,7 +1106,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: b81e000060220000a623000012230000f2220000702200006422000022220000b42200006222000004220000d2220000842300006a220000942200006c220000d0210000da210000d2210000dc210000e8210000522400005c2400001e240000222400002024000076260000fc2800005e700000ac2600009826000050270000c22c00004c270000a0270000522700008c2a0000922a0000ae280000ac2a0000800800005834000022260000602600000c26000032da0400903300003253000092330000c23300001630000050300000523000009e30000096530000da350000ae3d00007a3a000032510000ba3a00008c3e0000183b00006a3b0000943d000000000000c0430000f04e00001056000014310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

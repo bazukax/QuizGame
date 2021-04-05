@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\MovementTest.cs" />
      <Compile Include="Assets\Editor\PlayerControllerTests.cs" />
      <Compile Include="Assets\Editor\QuizTests.cs" />
  <Reference Include="UnityEngine">
