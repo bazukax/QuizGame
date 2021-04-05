@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     float horizontal;
     float vertical;
-    float moveLimiter = 0.7f;
+    public float moveLimiter = 0.7f;
     
     public float runSpeed = 20.0f;
 
