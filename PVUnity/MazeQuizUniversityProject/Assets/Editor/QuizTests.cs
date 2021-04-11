@@ -18,5 +18,8 @@ public class QuizTests
         //ASSERT
         Assert.IsTrue(generatedNumber >= 0);
         Assert.IsTrue(generatedNumber < 5);
+        Assert.IsFalse(generatedNumber < 0);
+        
+
     }
 }
