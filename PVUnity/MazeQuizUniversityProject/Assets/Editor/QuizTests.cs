@@ -9,17 +9,22 @@ public class QuizTests
     public void TestRNG()
     {
         //ARRANGE
-        float generatedNumber = 0;
+        int generatedNumber = 0;
         //ACT
         GameObject obj = new GameObject();
         obj.AddComponent<Quiz>();
 
+  
         generatedNumber = obj.GetComponent<Quiz>().generateRandomId(5);
+
+        obj.GetComponent<Quiz>().CheckNegative(generatedNumber);
         //ASSERT
-        Assert.IsTrue(generatedNumber >= 0);
-        Assert.IsTrue(generatedNumber < 5);
         Assert.IsFalse(generatedNumber < 0);
+        Assert.IsFalse(obj.GetComponent<Quiz>().CheckNegative(generatedNumber));
+        Assert.IsTrue(generatedNumber >= 0);
+        Assert.IsTrue(generatedNumber < 5);    
         
+
 
     }
 }

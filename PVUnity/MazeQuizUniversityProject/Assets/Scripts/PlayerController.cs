@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 
     float horizontal;
     float vertical;
-    float moveLimiter = 0.7f;
+   public float moveLimiter = 0.7f;
     
     public float runSpeed = 20.0f;
 
@@ -22,9 +22,33 @@ public class PlayerController : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal"); // -1 is left
         vertical = Input.GetAxisRaw("Vertical"); // -1 is down
     }
+    public bool SpeedTooFast(float speed)
+    {
+        if (speed > 1)
+        {
+            Debug.Log("Unexpected value. Horizontal speed too high");
+            return true;
+        }
+        else return false;
+           
+       
+    }
 
+    public bool LimiterBreak(float speed)
+    {
+        if (speed > 1)
+        {
+            Debug.Log("Unexpected value. Speed beyond the speed limit");
+            return true;
+        }
+        else return false;
+
+
+    }
     void FixedUpdate()
     {
+        
+
         if (horizontal != 0 && vertical != 0) 
         {
             horizontal *= moveLimiter;

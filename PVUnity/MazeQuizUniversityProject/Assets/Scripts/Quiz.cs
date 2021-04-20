@@ -50,6 +50,16 @@ public class Quiz : MonoBehaviour
        int rng = Random.Range(0, max);
         return rng;
     }
+    public bool CheckNegative(int max)
+    {
+        if (max < 0)
+        {
+            Debug.Log("Value is negative");
+            return true;
+        }
+        return false;
+       
+    }
     void UpdateUserInterface()
     {
         question.text = qList[randomQuestionId];
@@ -60,7 +70,7 @@ public class Quiz : MonoBehaviour
         answerButton[correctId].GetComponentInChildren<Text>().text = correctAnswer[randomQuestionId];
         answerButton[correctId].onClick.RemoveAllListeners();
         answerButton[correctId].onClick.AddListener(delegate { UImanager.GetComponent<UIcontroller>().OnCorrectAnswerClick(this.gameObject); });
-        Debug.Log(randomQuestionId + "  " + correctAnswer + " " + correctId);
+       // Debug.Log(randomQuestionId + "  " + correctAnswer + " " + correctId);
         for (int i = 0; i < answerButton.Length; i++)
         {
             if (correctId == i) continue;
