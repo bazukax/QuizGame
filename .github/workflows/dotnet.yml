@@ -6,8 +6,15 @@ jobs:
   build:
     name: Build my project ✨
     strategy:
+      fail-fast: false
       matrix:
-        targetplatform: [x86, x64]
+        projectPath:
+          - test-project
+        unityVersion:
+          - 2019.4.1f1
+        targetPlatform:
+          - StandaloneWindows64 # Build a Windows 64-bit standalone.
+
     runs-on: windows-latest
     steps:
       # Checkout
