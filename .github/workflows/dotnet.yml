@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
     
     env:
-     Solution_Path: \PVUnity\MazeQuizUniversityProject\MazeQuizUniversityProject.sln
+     Solution_Path: D:\a\QuizGame\QuizGame\PVUnity\MazeQuizUniversityProject\MazeQuizUniversityProject.sln
 
 
     steps:
