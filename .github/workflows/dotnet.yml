@@ -5,6 +5,9 @@ on: [push, pull_request]
 jobs:
   build:
     name: Build my project ✨
+    strategy:
+      matrix:
+        targetplatform: [x86, x64]
     runs-on: windows-latest
     steps:
       # Checkout
