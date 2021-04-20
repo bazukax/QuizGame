@@ -30,11 +30,7 @@ jobs:
           key: Library
 
 
-      # Build
-      - name: Build project
-        uses: game-ci/unity-builder@v2
-        with:
-          targetPlatform: Windows
+  
 
       # Output
       - uses: actions/upload-artifact@v2
